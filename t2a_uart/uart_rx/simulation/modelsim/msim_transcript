@@ -1,0 +1,39 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do uart_rx_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/code {C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/code/uart_rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:19 on Oct 31,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/code" C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/code/uart_rx.v 
+# -- Compiling module uart_rx
+# ** Warning: C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/code/uart_rx.v(228): (vlog-2182) 'data_bit_index' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 15:58:19 on Oct 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test {C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:20 on Oct 31,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test" C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test/tb.v 
+# ** Error: (vlog-13069) C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test/tb.v(1): near "1": syntax error, unexpected INTEGER NUMBER.
+# ** Error: C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test/tb.v(1): (vlog-13205) Syntax error found in the scope following 'timescale'. Is there a missing '::'?
+# End time: 15:58:20 on Oct 31,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./uart_rx_run_msim_rtl_verilog.do line 10
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx/.test {C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_rx..."
+# Load canceled

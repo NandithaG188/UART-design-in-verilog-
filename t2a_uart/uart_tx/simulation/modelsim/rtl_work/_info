@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/simulation/modelsim
+vtb
+Z1 !s110 1730339990
+!i10b 1
+!s100 aJ675cBj;jBRZhYLL_`2W2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILXC@SMG7mF?>m2ZAP78[C3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730024971
+8C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test/tb.v
+FC:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test/tb.v
+!i122 1
+L0 3 132
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730339990.000000
+!s107 C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test|C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test/tb.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/.test
+Z7 tCvgOpt 0
+vuart_tx
+R1
+!i10b 1
+!s100 N6E@1jc2gEzRa]d@NgD_h0
+R2
+I=hahi<XT=OJFboloYAcdE0
+R3
+R0
+w1730211858
+8C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code/uart_tx.v
+FC:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code/uart_tx.v
+!i122 0
+L0 140 100
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code|C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code/uart_tx.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/SUJATHA/Downloads/t2a_uart/t2a_uart/uart_tx/code
+R7
